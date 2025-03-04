@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Astra Interaction System",
+	"Description": "A simple plugin for detecting and interacting with objects using line, sphere, or box traces. Offers easy setup with unreal ACS using a custom actor component,  class interface and a delegate for custom responses. Full Blueprint support.",
+	"Category": "Game Mechanics",
+	"CreatedBy": "Astraeus",
+	"CreatedByURL": "https://github.com/0x00ASTRA",
+	"DocsURL": "https://github.com/0x00ASTRA/AstraInteractionSystem",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AstraInteractionSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
