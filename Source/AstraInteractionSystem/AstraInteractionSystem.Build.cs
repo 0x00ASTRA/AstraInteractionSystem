@@ -22,13 +22,7 @@ public class AstraInteractionSystem : ModuleRules
 			);
 			
 		
-		PublicDependencyModuleNames.AddRange(
-			new string[]
-			{
-				"Core",
-				// ... add other public dependencies that you statically link with here ...
-			}
-			);
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
 			
 		
 		PrivateDependencyModuleNames.AddRange(
